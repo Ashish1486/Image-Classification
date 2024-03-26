@@ -1,6 +1,6 @@
 # test_config.py
-
 # Define test suites
+from __future__ import annotations
 TEST_SUITES = {
     'unit_tests': [
         'tests.unit.test_module1',
@@ -13,7 +13,7 @@ TEST_SUITES = {
     'end_to_end_tests': [
         'tests.end_to_end.test_module5',
         'tests.end_to_end.test_module6',
-    ]
+    ],
 }
 
 # Define test case paths
@@ -36,7 +36,7 @@ TEST_DEPENDENCIES = {
     'end_to_end_tests': [
         'pytest',
         'selenium',
-    ]
+    ],
 }
 
 # Define test configuration options
